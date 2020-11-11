@@ -6,7 +6,7 @@ users/coding-bootcamp/GitHub/projects/hw3-password-generator
 This is the third assignment from the UConn Coding Bootcamp curriculum which combines our working knowledge of the first two week's topics (Git, Terminal, HTML, CSS, GitHub, GitHub Pages, GitLab, Web Accessibility, and Bootstrap) with the third week's topic: JavaScript.
 
 For this assignment we were to build a *password generator* by modifying some starter code. 
-**View the HTMl, CSS, and JavaScript starter code in the demos folder:** [This is Relative Link Name](actual URL of webpage you are linking) <!--[Horiseon - Refactored](https://dsmooke.github.io/go-for-launch/)
+**View the HTMl, CSS, and JavaScript starter code in the demos folder:** [This is Relative Link Name](actual URL of webpage you are linking) <!--[Horiseon - Refactored](https://dsmooke.github.io/go-for-launch/)-->
 
 <!--Future reference to view a webpage with a link: [TEXT TO SHOW](full URL) aka
 [This is Relative Link Name](actual URL of webpage you are linking)--> 
@@ -72,7 +72,7 @@ The goals can be further understood by the following definitions:
 
 *Dynamically updated*: pertains to upgrading programs while they are running. ... These compilers preserve the semantics of the original program, but instrument either the source code or object code to produce a dynamically updateable program.
 
-*JavaScript*
+<!--*JavaScript*: a programming language that conforms to the ECMAScript specification-->
 
 *Responsive*: relating to a webpage design that changes automatically according to the size of the screen on which it is viewed. 
 
