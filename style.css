@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*GENERAL PAGE*/
 html,
 body,
 .wrapper {
@@ -12,17 +13,20 @@ body,
   padding: 0;
 }
 
+/*BODY ELEMENT FORMAT: TEXT & BACKGROUND COLOR*/
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
 
+/*GENERAL CONTENT/CONTAINER FORMATTING*/
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/*PAGE'S TITLE "Password Generator"*/
 header {
   text-align: center;
   padding: 20px;
@@ -30,6 +34,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/*CARD/BOX THAT INCLUDES "Generate a Password" (AND Criteria Selections)*/
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -42,6 +47,7 @@ header {
   padding: 30px 40px;
 }
 
+/*THIN LINE UNDER "Generate a Password" HEADING*/
 .card-header::after {
   content: " ";
   display: block;
@@ -50,14 +56,17 @@ header {
   height: 2px;
 }
 
+/*CARD-BOX CONTAINING "Your Secure Password," BELOW MAIN BOX/CONTAINER*/
 .card-body {
   min-height: 100px;
 }
 
+/*AREA CONTAINING BUTTON: "Generate Password"*/
 .card-footer {
   text-align: center;
 }
 
+/*THIN LINE UNDER "Your Secure Password" BOX AND ABOVE FOOTER "Generate Password" BUTTON*/
 .card-footer::before {
   content: " ";
   display: block;
@@ -66,12 +75,14 @@ header {
   height: 2px;
 }
 
+/*THIN INVISIBLE LINE UNDER FOOTER AND "Generate Password" BUTTON*/
 .card-footer::after {
   content: " ";
   display: block;
   clear: both;
 }
 
+/*BUTTON "Generate Password"*/
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -88,15 +99,18 @@ header {
   cursor: pointer;
 }
 
+/*WTF? color of button & look of cursor after pressed*/
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
 }
 
+/*WTF? idk but it's floating right*/
 .float-right {
   float: right;
 }
 
+/*"Your Secure Password" TEXT AREA*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,20 +132,30 @@ button[disabled] {
   overflow: hidden;
 }
 
-@media (max-width: 690px) {
-  .btn {
+
+/*MEDIA QUERIES*/
+
+/*When viewport reaches 690px*/ 
     font-size: 1rem;
+@media (max-width: 690px) {   
+  
+  /*reduce "Generate Password" button size*/
+  .btn {                  
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
   }
 
-  #password {
+/*and reduce "Your Secure Password" text*/
+  #password {             
     font-size: 1rem;
   }
 }
 
+/*When viewport reaches 500px*/ 
 @media (max-width: 500px) {
-  .btn {
+
+  /*reduce "Generate Password" button size*/
+  .btn {                
     font-size: 0.8rem;
   }
 }
