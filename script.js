@@ -14,7 +14,25 @@ const symbolsEl   = ["!@#$%^&*+={}[]()/?<>"];       //what symbolsEl contains
 
 let criteria = [lengthEl, lowercaseEl, uppercaseEl, numbersEl, symbolsEl]; //criteria must be 
 
+function genLowercase () { //generate random lowercase letter
+  const lowercaseEl = "abcdefghijklmnopqrstuvwxyz";
+  return lowercaseEl[Math.floor(Math.random() * lowercaseEl.length)];
+}
 
+function genUppercase () { //generate random uppercase letter
+  const uppercaseEl = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  return uppercaseEl[Math.floor(Math.random() * uppercaseEl.length)];
+}
+
+function genNumbers () { //generate random number
+  const numbersEl = "0123456789";
+  return numbersEl[Math.floor(Math.random() * numbersEl.length)];
+}
+
+function genSymbols() { //generate random symbol
+  const symbolsEl = "!@#$%^&*+={}[]()/?<>";
+  return symbolsEl[Math.floor(Math.random() * symbolsEl.length)];
+}
 
 
 // Instructions: Write password to the #password input
@@ -23,7 +41,7 @@ function writePassword() { //what do you want to happen?
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
+  
 }
 
 // Instructions: Add event listener to generate button
