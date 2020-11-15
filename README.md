@@ -102,4 +102,4 @@ For my password generator I focused on pseudocode to help break down the code in
 
 The following image shows the web application's appearance and functionality: 
 
-![Application Demo](./assets/screenshot-generator.png)
+![Application Demo](/Users/Dana/Coding-Bootcamp/GitHub/projects/hw3_password-generator/password-generator/assets/screenshot-generator.png)
