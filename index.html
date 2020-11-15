@@ -4,28 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" /> <!--Link to External CSS Stylesheet-->
+
+    <!--Link to External CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css" /> 
 
   </head>
   <body>
-    <div class="wrapper"> <!--aka Container-->
+    <div class="wrapper"> 
       <header> <!--Title of page: "Password Generator"-->
         <h1>Password Generator</h1>
       </header>
 
-      <div class="card"> <!--Generate Password Box/Card-->
-        <div class="card-header"> <!--Password Box Title-->
+      <!--Generate Password Box/Card-->
+      <div class="card"> 
+        <!--Password Box Title-->
+        <div class="card-header"> 
           <h2>Generate a Password</h2>
         </div>
 
+        <!--Selection Criteria Options-->
+        <div id="sec_options">
 
-        <!--Selection Criteria Options
-        <div id="sec_options">-->
-
-          <!--Password Length-->
-            <div class="chboxl">Password Length:</div>
-              <select id="passwordLength" title="Select the length of your password." onclick="S7P( false );">
+          <!--Choose a Password Length-->
+            <div class="chboxl">Password Length:</div> 
+              <select id="passwordLength" title="Select the length of your password.">
                 <optgroup label="Weak">
                   <option value="8">8</option>
                   <option value="9">9</option>
@@ -155,40 +159,39 @@
                 </optgroud>
               </select>
 
-
-          <!--Include Lowercase Characters-->
+          <!--Checkbox to Include Lowercase Characters-->
             <div class="chxboxl">Include Lowercase Characters:</div>
               <label>
                 <input type="checkbox" name="LowerCase" id="LowerCase" onclick="">"(e.g. abcdefgh )"
               </label>
             
-
-          <!--Include Uppercase Characters-->
+          <!--Checkbox to Include Uppercase Characters-->
           <div class="chxboxl">Include Uppercase Characters:</div>
             <label>
               <input type="checkbox" name="UpperCase" id="UpperCase" onclick="">"(e.g. ABCDEFGH )"
             </label>
        
-          <!--Include Numbers-->
+          <!--Checkbox to Include Numbers-->
           <div class="chxboxl">Include Numbers:</div>
             <label>
               <input type="checkbox" name="Numbers" id="Numbers" onclick="">"(e.g. 123456 )"
             </label>
 
-          <!--Include Symbols-->
-          <div class="chxboxl">Include Lowercase Characters:</div>
+          <!--Checkbox to Include Symbols-->
+          <div class="chxboxl">Include Symbols:</div>
             <label>
               <input type="checkbox" name="Symbols" id="Symbols" onclick="">"(e.g. !@#$% )"
             </label>
-           
+        </div>   
 
-
-        <!--Your New Password-->
-        <div class="card-body" id="">
-          <textarea readonly 
-          id="password" placeholder="Your Secure Password"
-          aria-label="Generated Password">
-          </textarea>
+        <!--Your Secure Password: where your new password will be displayed.-->
+        <div class="card-body">
+          <textarea 
+          readonly 
+          id="password" 
+          placeholder="Your Secure Password"
+          aria-label="Generated Password"
+          ></textarea>
         </div>
 
         <!--"Generate Password" Button-->
@@ -197,7 +200,7 @@
         </div>
 
       </div>
-    </div> <!--end of card-->
+    </div> <!--end of wrapper-->
 
     <!--Link to External JavaScript File-->
     <script src="script.js"></script> 
