@@ -1,5 +1,8 @@
 # Password Generator
 
+GO HERE: [active link to site](http://127.0.0.1:5500/index.html) 
+
+The URL for the active site was somehow changed while using devTools. I didn't know how to fix it. The link below will take you to the GitHub repo page. 
 
 ## Description
 
@@ -96,7 +99,7 @@ The goals can be further understood by the following definitions:
 
 For my password generator I focused on pseudocode to help break down the code into manageable blocks to identify where "the magic happens," aka JavaScript...easier said than done.
 
-[Password Generator](https://dsmooke.github.io/password-generator/)
+[Password Generator Github](https://dsmooke.github.io/password-generator/)
 
 ## Mock-Up
 
