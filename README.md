@@ -1,23 +1,21 @@
 # Password Generator
-users/coding-bootcamp/GitHub/projects/hw3-password-generator
+
 
 ## Description
 
 This is the third assignment from the UConn Coding Bootcamp curriculum which combines our working knowledge of the first two week's topics (Git, Terminal, HTML, CSS, GitHub, GitHub Pages, GitLab, Web Accessibility, and Bootstrap) with the third week's topic: JavaScript.
 
-For this assignment we were to build a *password generator* by modifying some starter code. 
-**View the HTMl, CSS, and JavaScript starter code in the demos folder:** [This is Relative Link Name](actual URL of webpage you are linking) <!--[Horiseon - Refactored](https://dsmooke.github.io/go-for-launch/)-->
+For this assignment we were to build a password generator by modifying some starter code. 
 
-<!--Future reference to view a webpage with a link: [TEXT TO SHOW](full URL) aka
-[This is Relative Link Name](actual URL of webpage you are linking)--> 
 
 ## Goals 
 
-1.  An application that an employee can use to generate a random password. 
+1. An application that an employee can use to generate a random password. 
 
-2. The application will run in the *browser*, and will feature *dynamically updated HTML and CSS* powered by *JavaScript* code.
+2. The application will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
-3. The application will have a clean and polished user interface that is *responsive*.
+3. The application will have a clean and polished user interface that is responsive.
+
 
 ## Instructions
 
@@ -25,7 +23,7 @@ Our instructions were based of the following User Story:
 
 ```
 AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain **criteria**
+I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 ```
 
@@ -34,20 +32,21 @@ Our application had to meet the following criteria:
 ```
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
-THEN I am presented with a series of **prompts** for password criteria
+THEN I am presented with a series of prompts for password criteria
 WHEN prompted for password criteria
 THEN I select which criteria to include in the password
 WHEN prompted for the length of the password
 THEN I choose a length of at least 8 **characters** and no more than 128 characters
-WHEN prompted for **character types** to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or **special characters**
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/orspecial characters
 WHEN I answer each prompt
-THEN my **input** should be **validated** and at least one character type should be selected
+THEN my input should be validated and at least one character type should be selected
 WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
-THEN the password is either displayed in an **alert** or written to the page
+THEN the password is either displayed in an alert or written to the page
 ```
+
 #### Translation
 
 - Employee needs a new secure password.
@@ -66,13 +65,12 @@ The goals can be further understood by the following definitions:
 *Password Generator*: a software program or device that takes input from a random number generator and automatically generates a password.
 
 *Password:*: a memorized secret, typically a string of characters, usually used to confirm the identity of a user.
-<!--*Criteria*: a principle or standard by which something may be judged or decided.-->
 
 *Browser:*: a software application that lets you visit web pages on the Internet.
 
 *Dynamically updated*: pertains to upgrading programs while they are running. ... These compilers preserve the semantics of the original program, but instrument either the source code or object code to produce a dynamically updateable program.
 
-<!--*JavaScript*: a programming language that conforms to the ECMAScript specification-->
+*JavaScript*: a programming language that conforms to the ECMAScript specification.
 
 *Responsive*: relating to a webpage design that changes automatically according to the size of the screen on which it is viewed. 
 
@@ -96,12 +94,12 @@ The goals can be further understood by the following definitions:
 
 ## Developer
 
-For my password generator I focused on *pseudocode* to help break down the code into manageable blocks....as well as trying to break down the components of the things that "makes the magic happen," aka JavaScript. Here's a meme to encapsulate the feeling:
+For my password generator I focused on pseudocode to help break down the code into manageable blocks to identify where "the magic happens," aka JavaScript...easier said than done.
 
-![Javascript Meme](./imgs link)
+[Password Generator](https://dsmooke.github.io/password-generator/)
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality: 
 
-![Application Demo](./img link)
+![Application Demo](./assets/screenshot-generator.png)
