@@ -20,6 +20,10 @@ body {
   text-align: center;
 }
 
+h2 {
+  padding-top: 20px;
+}
+
 /*GENERAL CONTENT/CONTAINER FORMATTING*/
 .wrapper {
   padding-top: 30px;
