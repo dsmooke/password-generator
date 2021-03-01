@@ -1,8 +1,6 @@
 # Password Generator
 
-GO HERE: [active link to site](http://127.0.0.1:5500/index.html) 
-
-The URL for the active site was somehow changed while using devTools. I didn't know how to fix it. The link below will take you to the GitHub repo page. 
+![Application Demo](assets/screenshot-generator.png)
 
 ## Description
 
@@ -10,6 +8,7 @@ This is the third assignment from the UConn Coding Bootcamp curriculum which com
 
 For this assignment we were to build a password generator by modifying some starter code. 
 
+View the application [here](https://dsmooke.github.io/password-generator/) 
 
 ## Goals 
 
