@@ -1,14 +1,24 @@
 # Password Generator
 
+<span align="left">
+
+<a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"/></a>
+
+ </span>
+
 ![Application Demo](assets/screenshot-generator.png)
 
 ## Description
 
-This is the third assignment from the UConn Coding Bootcamp curriculum which combines our working knowledge of the first two week's topics (Git, Terminal, HTML, CSS, GitHub, GitHub Pages, GitLab, Web Accessibility, and Bootstrap) with the third week's topic: JavaScript.
-
-For this assignment we were to build a password generator by modifying some starter code. 
+A password generator created by modifying some starter code that uses JavaScript.
 
 View the application [here](https://dsmooke.github.io/password-generator/) 
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
 
 ## Goals 
 
@@ -105,3 +115,16 @@ For my password generator I focused on pseudocode to help break down the code in
 The following image shows the web application's appearance and functionality: 
 
 ![Application Demo](assets/screenshot-generator.png)
+
+## Contact
+
+[Dana Smooke]("https://github.com/dsmooke")
+
+## License
+
+[MIT]("https://opensource.org/licenses/MIT")
+
+---
+
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
